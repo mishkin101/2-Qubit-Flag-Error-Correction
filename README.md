@@ -12,7 +12,8 @@ Conventional FTQC typically requires many ancillas, increasing circuit depth and
 
 Method
 
-Code & Noise Model: Protect a single-qubit state 
+Code & Noise Model: 
+Protect a single-qubit state 
 ∣
 𝜓
 ⟩
