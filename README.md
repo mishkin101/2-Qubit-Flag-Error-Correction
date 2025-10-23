@@ -14,31 +14,14 @@ Conventional FTQC typically requires many ancillas, increasing circuit depth and
 
 
 - Code & Noise Model: 
-Protect a single-qubit state 
-∣
-𝜓
-⟩
-∣ψ⟩ via the 3-qubit encoding 
-∣
-𝜓
-′
-⟩
-=
-𝑎
-∣
-000
-⟩
-+
-𝑏
-∣
-111
-⟩ - ∣ψ⟩=a∣000⟩+b∣111⟩ against bit-flip (X) errors modeled by a classical-analogue bit-flip channel.
+Protect a single-qubit state ∣ψ⟩ via the 3-qubit encoding
+∣𝜓′⟩=𝑎∣000 ⟩ + 𝑏∣111⟩ - ∣ψ⟩=a∣000⟩+b∣111⟩ against bit-flip (X) errors modeled by a classical-analogue bit-flip channel.
 
 Stabilizers: Measure commuting generators ZZI and IZZ to obtain error syndromes without collapsing the logical superposition.
 
 Flagged Syndrome Extraction: Add flag qubits to the parity-check circuits. If a flag trips, re-extract targeted syndromes to identify and safely correct error patterns that could otherwise spread.
 
-Pipelines:
+# Pipelines:
 
 Simulation with Qiskit Aer to validate circuits and correction logic.
 
