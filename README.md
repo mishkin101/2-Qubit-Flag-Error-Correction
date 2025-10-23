@@ -10,9 +10,10 @@ Conventional FTQC typically requires many ancillas, increasing circuit depth and
 
 
 
-Method
+# Method
 
-Code & Noise Model: 
+
+- Code & Noise Model: 
 Protect a single-qubit state 
 ∣
 𝜓
@@ -31,10 +32,7 @@ Protect a single-qubit state
 𝑏
 ∣
 111
-⟩
-∣ψ
-′
-⟩=a∣000⟩+b∣111⟩ against bit-flip (X) errors modeled by a classical-analogue bit-flip channel.
+⟩ - ∣ψ⟩=a∣000⟩+b∣111⟩ against bit-flip (X) errors modeled by a classical-analogue bit-flip channel.
 
 Stabilizers: Measure commuting generators ZZI and IZZ to obtain error syndromes without collapsing the logical superposition.
 
